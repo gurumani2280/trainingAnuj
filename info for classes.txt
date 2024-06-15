@@ -1,0 +1,45 @@
+Course Description 
+Students will learn and apply advanced programming concepts in an object-oriented language, specifically
+Java. They will be introduced to software engineering with test-driven design. Students will gain mastery
+of an object-oriented language and design and implement data structures. Students will be introduced to
+the functional programming paradigm and multi-threaded programs.
+Learning Objectives 
+At the end of this course you will be able to:
+• Create programs using the Java programming language.
+• Apply object oriented principles to programming in Java.
+• Create robust data structures using objects and classes to organize and manipulate data.
+• Define subroutines using the functional programming paradigm in Java.
+• Process data from files of a variety of formats using streams.
+• Apply generic classes to increase the flexibility of data types and increase code reuse.
+• Apply test driven development to write correct code.
+• Evaluate code for basic time complexity
+
+Some topics include
+•	basics
+•	Loops
+•	Subroutines
+•	Objects and classes
+•	Array, ArrayLists, Records
+•	Functional Interface and lambda
+•	Linked data structures and recursion
+•	Test cases, overflow, exceptions
+•	Java collection framework
+
+One project example
+# Assignment Description:
+You will be developing a simulation for a popular board game of your choice, following 
+the principles of Test-Driven Development (TDD), applying object-oriented design (OOD) 
+principles, and reflecting on the use of generative AI tools. The assignment is divided 
+into four phases with a recommended amount of time to spend on each phase.  For 
+implementation phases, you will emphasize object-oriented design, write failing tests, 
+implement code to pass the tests, and refactoring as needed.  You will use your code
+to conduct a small experiment.  Additionally, you will have the opportunity to reflect 
+on your use of generative AI tools in the project.
+
+# Objectives
+- Develop a well-documented board game simulation using Test-Driven Development (TDD) and 
+object-oriented design (OOD) principles.
+- Create multiple player strategies, each designed by your team to address specific game scenarios.
+- Integrate player strategies into the game simulation.
+- Generate a report with data and analyses comparing player strategies' performance.
+- Create a reflective assessment of the use of generative AI tools during the project.
