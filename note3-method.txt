@@ -1,0 +1,117 @@
+what are methods?
+
+methods are nothing but a block of statement or set of statement 
+which will be executed whenever it is called or invoked
+
+why method?
+we design method for re-usablity
+
+general syntax for method- 
+
+accessLevel accessModifier returnType methodName(arguements) {
+}
+
+accessLevel -- public , protected, private or default 
+
+accessModifier -- static or non-static
+
+returnType -- can be any dataType (any of 8 primitive or non primitive) or void
+	returnType specifies what type of output method returns after processing
+	if method does not return anything then returnType for the method should be void
+	for non void method return statement is mandatory (return statement optional for void method)
+	returnType and return value type should match
+
+
+methodName -- can be any valid identifier we can give for the method
+
+
+arguments are not mandatory -- these are inputs to the method
+	e.g.	if a method wants to add two number then the method should be capable of recieving two number as input
+
+method example
+
+	public static void greeting()
+	{
+		System.out.println("Hello from greeting");
+		// return;
+	}
+
+	public static void checkEvenOdd(int i)
+	{
+		if(i % 2 == 0)
+		{
+			System.out.println("the given number "+ i + " is EVEN");
+		}
+		else
+		{
+			System.out.println("the given number "+ i + " is ODD");
+		}
+		// return;
+	}
+
+	public static int add(int i, int j)
+	{
+		int sum = i + j;
+		return sum;
+	}
+
+=======================================
+1. default executable method in java is main method, other methods needs to be called explicitly
+2. how to call/invoke/execute a method
+	method name and matching arguments
+	
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		System.out.println(isPrime(5));
+				
+	}
+
+	public static boolean isPrime(int num)
+	{
+		System.out.println("Inside isPrime "+ num);
+		boolean retData = true;
+		for(int i = 2; i <= num/2; i++ )
+		{
+			if(num % i == 0)
+			{
+				retData = false;
+				break;
+			}
+		}
+		return retData;
+
+	}
+
+3. We cannot print void methods inside s.out
+   We cannot assign void method to variables
+   Int to char conversion*
+
+4. Can call methods not only from main method but also call methods within other methods
+
+	public static void main(String[] args)
+	{
+		System.out.println("main begin");
+		test1();
+		System.out.println("------");
+		test2();
+		System.out.println("------");
+		System.out.println("main end");
+	}
+	public static void test1()
+	{
+		System.out.println("test1 begin");
+		test2();
+		System.out.println("test1 end");
+	}
+	public static void test2()
+	{
+		System.out.println("test2");
+	}
+	}
+
+5.	public static void test() // method signature/ definition
+	{
+		System.out.println("from test"); // inside curly brackets, are known as method body/ implementation
+	}
+
