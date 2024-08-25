@@ -1,0 +1,16 @@
+Varargs can make a lot of boilerplate go away in Java.
+
+Varargs are straightforward to use. But there’re a few rules we have to keep in mind:
+
+Rules for varargs:
+1. Each method can only have one varargs parameter
+2. Variable argument (varargs) must be the last argument.
+
+-VARARG argument is array by default.
+// Note:Even though one method is vararg and other is an array both comes under same signature so same method can not be overloaded
+
+Important Points regarding Varargs
+1. Vararg Methods can also be overloaded, but overloading may lead to ambiguity.
+2. Before JDK 5, variable length arguments could be handled in two ways: One was using overloading, other was using array argument.
+3. There can be only one variable argument in a method.
+5. Variable argument (Varargs) must be the last argument.
